@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.sample.textviewchangebyedittext.MainActivity">
+
+    <EditText
+        android:id="@+id/TextChangerEditText"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:hint="Enter a Text to Show"/>
+
+    <Button
+        android:id="@+id/TextChangerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Change"/>
+
+    <TextView
+        android:id="@+id/TextChangingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="Press The Button To Change The Text"/>
+
+</LinearLayout>
