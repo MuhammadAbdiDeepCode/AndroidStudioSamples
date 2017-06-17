@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.sample.shortcutsbybutton.MainActivity">
+
+    <TextView
+        android:id="@+id/TitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:text="Please Contact RayanRooyesh"/>
+
+    <Button
+        android:id="@+id/DialButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:fontFamily="serif"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="Dial RayanRooyesh"/>
+
+    <Button
+        android:id="@+id/WebSiteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:fontFamily="serif"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="RayanRooyesh.ir Website"/>
+
+    <Button
+        android:id="@+id/MapButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:fontFamily="serif"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="RayanRooyesh on Map"/>
+
+</LinearLayout>
